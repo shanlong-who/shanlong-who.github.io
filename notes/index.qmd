@@ -1,0 +1,26 @@
+---
+title: "Notes & tutorials"
+description: "Practical guides to health data, mortality analysis, and data training from Shanlong Ding’s public projects."
+lang: en
+site-section: notes
+active-notes: true
+chinese: false
+home-path: "/"
+projects-path: "/projects/"
+notes-path: "/notes/"
+about-path: "/about/"
+canonical-path: "/notes/"
+english-path: "/notes/"
+chinese-path: "/zh/notes/"
+translation-path: "/zh/notes/"
+---
+
+```{=html}
+<header class="page-intro"><p class="eyebrow">Notes &amp; tutorials</p><h1>Start with a question.</h1><p class="lead">A collection of practical guides from my public projects. Pick a question that fits your work, then follow it into the examples and documentation.</p></header>
+<section class="guide-group"><div><h2>Health data</h2><p class="group-caption">Find the data, understand its source, then begin the analysis.</p></div><div class="guide-list"><a class="note-row" href="https://shanlong-who.github.io/DSIR/"><div><span class="note-label">DSIR</span><h3>Data tools and reference documentation</h3><p>Explore data clients, country metadata, and reusable tools for charts and tables.</p><span class="lang-badge">English guide · Project documentation</span></div><span class="arrow" aria-hidden="true">↗</span></a></div></section>
+<section class="guide-group"><div><h2>Mortality analysis</h2><p class="group-caption">From preparing the input to interpreting the output.</p></div><div class="guide-list"><a class="note-row" href="https://shanlong-who.github.io/exmort/articles/data-preparation.html"><div><span class="note-label">exmort</span><h3>Prepare weekly or monthly mortality data</h3><p>Learn how to organise the input workbook and define the event calendar.</p><span class="lang-badge">English guide · Project documentation</span></div><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="note-row" href="https://shanlong-who.github.io/exmort/articles/models-and-interpretation.html"><div><span class="note-label">exmort</span><h3>Models and interpretation</h3><p>Understand baselines, uncertainty, excess deaths, and P-scores.</p><span class="lang-badge">English guide · Project documentation</span></div><span class="arrow" aria-hidden="true">↗</span></a></div></section>
+<section class="guide-group"><div><h2>Learning & teaching</h2><p class="group-caption">Practise data work with clear examples.</p></div><div class="guide-list"><a class="note-row" href="https://shanlong-who.github.io/cataScience/articles/data-quality-workflow.html"><div><span class="note-label">cataScience</span><h3>A data-quality workflow</h3><p>Compare cleaning choices, inspect text and joins, and explain a chart.</p><span class="lang-badge">English guide · Project documentation</span></div><span class="arrow" aria-hidden="true">↗</span></a>
+<a class="note-row" href="https://shanlong-who.github.io/cataScience/articles/training-guide.html"><div><span class="note-label">cataScience</span><h3>Plan a data training session</h3><p>Explore session plans for data science and working with AI assistants.</p><span class="lang-badge">English guide · Project documentation</span></div><span class="arrow" aria-hidden="true">↗</span></a></div></section>
+<aside class="small-note">These links open the existing English guides on their project websites. The Chinese edition of this page provides translated introductions to the same resources.</aside>
+```
