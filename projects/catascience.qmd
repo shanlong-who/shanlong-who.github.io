@@ -1,0 +1,29 @@
+---
+title: "cataScience"
+description: "Learn to prepare, explore, and explain data through interactive lessons and practical exercises."
+lang: en
+site-section: projects
+active-projects: true
+chinese: false
+home-path: "/"
+projects-path: "/projects/"
+notes-path: "/notes/"
+about-path: "/about/"
+canonical-path: "/projects/catascience.html"
+english-path: "/projects/catascience.html"
+chinese-path: "/zh/projects/catascience.html"
+translation-path: "/zh/projects/catascience.html"
+---
+
+```{=html}
+<header class="case-header"><div><p class="breadcrumb"><a href="/projects/">← All projects</a></p><p class="eyebrow">Learning & training</p><h1>cataScience</h1><p class="lead">Learn to prepare, explore, and explain data through interactive lessons and practical exercises.</p><div class="button-row"><a class="button" href="https://shanlong-who.github.io/cataScience/">Read the guide <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/shanlong-who/cataScience">View source <span aria-hidden="true">↗</span></a></div></div><a class="project-art" href="https://shanlong-who.github.io/cataScience/" aria-label="cataScience"><span class="art-index" aria-hidden="true">03</span><img src="/assets/catascience-logo.png" alt="cataScience logo" width="160" height="180" loading="lazy"></a></header>
+<div class="case-layout"><article class="prose"><h2>The question</h2><p>How can someone new to data learn a complete workflow and understand the choices made along the way?</p>
+<h2>What the app offers</h2><p>Interactive modules cover data import, missing values, outliers, text cleaning, joins, visualisation, and basic statistics. Additional materials introduce practical use of AI assistants, with the learner responsible for checking the results.</p>
+<h2>Who it is for</h2><p>People starting to work with data, trainers planning hands-on sessions, and teams building confidence in everyday analysis.</p>
+<h2>A starting point</h2><p>Install from CRAN with <code>install.packages("cataScience")</code>, then launch the original learning app:</p><pre><code>library(cataScience)
+run_cata()</code></pre><p>The documentation also describes the extended workshop app and its learning path.</p>
+<h2>Learning through examples</h2><p>The project includes example datasets and practical exercises. Some workshop datasets are synthetic teaching materials; they should be read as training examples, not country estimates.</p>
+<h2>My contribution</h2><p>I am the package author and maintainer. The app was developed for data trainings, with general learning content that can also be used for self-study.</p></article><aside class="case-meta" aria-label="Project details"><dl><dt>Format</dt><dd>R Shiny training application</dd><dt>My role</dt><dd>Author and maintainer</dd><dt>Licence & attribution</dt><dd>MIT + licence file</dd><dt>Source</dt><dd><a href="https://github.com/shanlong-who/cataScience">cataScience · GitHub</a><br>Description checked on 3 November 2026.</dd></dl></aside></div>
+<a class="back-link" href="/projects/">← Back to all projects</a>
+<section class="contact-band"><div><h2>Have a question about this work?</h2><p>Get in touch about use cases, methods, and data training.</p></div><a href="mailto:dings@who.int">dings@who.int <span aria-hidden="true">↗</span></a></section>
+```
