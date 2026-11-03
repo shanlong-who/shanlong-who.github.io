@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "zh/projects/spar.html",
+    "href": "zh/projects/spar.html",
+    "title": "SPAR Insights",
+    "section": "",
+    "text": "← 全部项目交互仪表板SPAR Insights按年份、区域和国家探索公开的 SPAR 自评数据。打开仪表板 ↗查看源代码 ↗04SPAR2021 — 2025\n    从什么问题出发怎样在一个页面中，按年份、区域和国家探索公开的 SPAR 自评数据？\n    工具提供什么按年份、WHO 区域和缔约国筛选 2021—2025 年的数据快照，浏览地图、分数分布、国家概况、年度比较、可搜索评论及可下载表格。\n    适合谁使用希望便捷浏览 SPAR 公开报告中的模式，并进一步查阅原始来源的使用者。\n    从这里开始使用现代浏览器打开仪表板即可，无需安装 R。仓库也提供可供离线使用的单一 HTML 文件。\n    理解数据SPAR 是自评数据。不同年份的国家覆盖可能变化，缺失值不等于零分，后续官方发布也可能与这一快照不同。比较结果前，请先阅读仪表板中的数据说明。\n    我的贡献我开发并维护这一独立的数据探索工具。仓库包含构建与验证的源代码。本工具并非 WHO 官方出版物。使用方式浏览器静态仪表板我的角色开发与维护许可与署名参阅项目仓库及原始数据来源的使用条款资料来源spar-insights · GitHub项目说明核对于 2026 年 11 月 3 日。\n    ← 返回全部项目\n    想聊聊这个项目？欢迎交流使用场景、方法和数据培训。dings@who.int ↗"
+  },
+  {
+    "objectID": "zh/projects/exmort.html",
+    "href": "zh/projects/exmort.html",
+    "title": "exmort",
+    "section": "",
+    "text": "← 全部项目死亡率分析exmort利用基线模型分析全因死亡与超额死亡，查看图表并导出报告。阅读指南（英文） ↗查看源代码 ↗02\n    从什么问题出发实际观察到的死亡人数与统计基线相比有多少差异？模型和时间段的选择又会怎样影响结果？\n    工具提供什么输入每周或每月死亡人数与事件时间表，应用使用指定事件之外的时期拟合基线模型，并输出预期死亡、超额死亡、P-score、不确定性、图表和可下载报告。\n    适合谁使用需要探索死亡时间序列、比较模型选择，并解释估计结果的分析人员。\n    从这里开始使用 install.packages(\"exmort\") 从 CRAN 安装，然后在 R 中启动：library(exmort)\n    run_app()项目网页提供文档；实际分析在本机的 Shiny 应用中运行。\n    解释分析结果事件时间表与基线时期都会影响结果。指定事件之外的时期可能包括事件发生后的观测值，解释估计结果前应检查数据范围与模型说明。死因别分析等开发功能在 GitHub 文档中另有说明。\n    我的贡献我是该工具包的作者与维护者。软件包注明世界卫生组织西太平洋区域办事处的版权与资助角色，完整署名与许可信息见源代码仓库。使用方式R Shiny 应用我的角色作者与维护者许可与署名GPL-3；软件包注明 WHO WPRO 的版权与资助角色资料来源exmort · GitHub项目说明核对于 2026 年 11 月 3 日。\n    ← 返回全部项目\n    想聊聊这个项目？欢迎交流使用场景、方法和数据培训。dings@who.int ↗"
+  },
+  {
+    "objectID": "zh/projects/catascience.html",
+    "href": "zh/projects/catascience.html",
+    "title": "cataScience",
+    "section": "",
+    "text": "← 全部项目学习与培训cataScience通过交互课程和实际练习，学习整理、探索和解释数据。阅读指南（英文） ↗查看源代码 ↗03\n    从什么问题出发刚接触数据的人，怎样才能学会完整的工作流程，并理解每一步选择的意义？\n    工具提供什么交互模块涵盖数据导入、缺失值、异常值、文本清理、数据合并、可视化与基础统计。配套材料介绍 AI 助手的实际用法，同时强调由学习者检查和判断结果。\n    适合谁使用开始从事数据工作的人员、组织实践培训的讲师，以及希望提升日常分析能力的团队。\n    从这里开始使用 install.packages(\"cataScience\") 从 CRAN 安装，然后启动原版学习应用：library(cataScience)\n    run_cata()项目文档也介绍扩展培训应用及其学习路径。\n    通过示例学习项目提供示例数据与实际练习。其中部分培训数据为合成教学材料，应作为练习示例理解，不代表国家估计结果。\n    我的贡献我是该工具包的作者与维护者。应用为数据培训开发，其通用学习内容也适合自学。使用方式R Shiny 教学应用我的角色作者与维护者许可与署名MIT；详见项目许可文件资料来源cataScience · GitHub项目说明核对于 2026 年 11 月 3 日。\n    ← 返回全部项目\n    想聊聊这个项目？欢迎交流使用场景、方法和数据培训。dings@who.int ↗"
+  },
+  {
+    "objectID": "zh/index.html",
+    "href": "zh/index.html",
+    "title": "让健康数据更好地被使用。",
+    "section": "",
+    "text": "公共卫生 · 数据科学\n        让健康数据更好地被使用。\n        你好，我是丁善龙。Shanlong Ding\n        我是一名在马尼拉工作的公共卫生数据分析师。我开发开源 R 工具，关注健康指标、死亡率分析，以及可重复的数据工作流程。\n        浏览项目 ↗认识一下我 →\n      \n      丁善龙 · Shanlong Ding工作与生活在马尼拉\n    \n    健康数据获取数据，理解背景与含义实用工具R 工具包与交互应用知识分享使用指南、方法与培训\n    精选项目从实际问题出发。全部项目 ↗01R 数据工具包DSIR获取 WHO 与 UN 数据，使用国家元数据，并生成风格一致的图表与表格。了解项目 ↗\n    02死亡率分析exmort利用基线模型分析全因死亡与超额死亡，查看图表并导出报告。了解项目 ↗\n    03学习与培训cataScience通过交互课程和实际练习，学习整理、探索和解释数据。了解项目 ↗\n    文章与教程把方法带入实践。从公开项目指南中，选取几个便于开始的入口。浏览指南 ↗健康数据使用全球健康数据了解 DSIR 的数据获取功能与使用文档。英文指南 · 项目文档↗死亡率分析理解分析中的基线了解模型、不确定性与超额死亡结果的解释。英文指南 · 项目文档↗数据实践建立更清楚的数据工作流程探索数据清理、合并与图表解释。英文指南 · 项目文档↗\n    从一个数据问题开始交流。欢迎交流健康数据分析、R 工具和数据培训。dings@who.int ↗"
+  },
+  {
+    "objectID": "projects/spar.html",
+    "href": "projects/spar.html",
+    "title": "SPAR Insights",
+    "section": "",
+    "text": "← All projectsInteractive dashboardSPAR InsightsExplore public SPAR self-assessment data across years, regions, and countries.Open dashboard ↗View source ↗04SPAR2021 — 2025\n    The questionHow can publicly available SPAR self-assessment data be explored across years, regions, and countries in one place?\n    What the dashboard offersFilter the 2021–2025 snapshot by year, WHO region, and State Party. Explore maps, score distributions, country profiles, annual comparisons, searchable comments, and downloadable tables.\n    Who it is forPeople exploring public SPAR reporting who need an accessible way to browse patterns and return to the underlying sources.\n    A starting pointOpen the dashboard in a modern browser. No R installation is needed to view it. The repository also provides a self-contained HTML file for offline use.\n    Reading the dataSPAR is a self-assessment. Country coverage can change between years, missing values differ from zero scores, and later official releases may differ from this snapshot. Read the dashboard’s data notes before making comparisons.\n    My contributionI built and maintain this independent exploration tool. The repository includes the build and validation source. It is not an official WHO publication.FormatBrowser-based static dashboardMy roleDeveloper and maintainerLicence & attributionConsult the repository and original data-source termsSourcespar-insights · GitHubDescription checked on 3 November 2026.\n    ← Back to all projects\n    Have a question about this work?Get in touch about use cases, methods, and data training.dings@who.int ↗"
+  },
+  {
+    "objectID": "projects/exmort.html",
+    "href": "projects/exmort.html",
+    "title": "exmort",
+    "section": "",
+    "text": "← All projectsMortality analysisexmortExplore all-cause and excess mortality with baseline models, clear plots, and downloadable reports.Read the guide ↗View source ↗02\n    The questionHow many deaths were observed compared with a statistical baseline, and how does the answer depend on the model and the periods selected?\n    What the app offersSupply weekly or monthly death counts and an event calendar. The application fits baseline models using periods outside the supplied events and reports expected deaths, excess deaths, P-scores, uncertainty, plots, and downloadable reports.\n    Who it is forAnalysts exploring mortality time series who need to review model choices and explain the resulting estimates.\n    A starting pointInstall from CRAN with install.packages(\"exmort\"), then launch the app from R:library(exmort)\n    run_app()The project website hosts documentation. The analysis runs in the Shiny application on your machine.\n    Interpreting the analysisThe event calendar and baseline period affect the result. Periods outside the supplied events can include observations after an event. Review the data range and the model guidance before interpreting an estimate. The GitHub documentation separately describes development features such as cause-specific analyses.\n    My contributionI am the package author and maintainer. The package credits the WHO Regional Office for the Western Pacific for copyright and funding; the source repository provides the full attribution and licence.FormatR Shiny applicationMy roleAuthor and maintainerLicence & attributionGPL-3; WHO WPRO copyright and funding acknowledged in the packageSourceexmort · GitHubDescription checked on 3 November 2026.\n    ← Back to all projects\n    Have a question about this work?Get in touch about use cases, methods, and data training.dings@who.int ↗"
+  },
+  {
+    "objectID": "projects/catascience.html",
+    "href": "projects/catascience.html",
+    "title": "cataScience",
+    "section": "",
+    "text": "← All projectsLearning & trainingcataScienceLearn to prepare, explore, and explain data through interactive lessons and practical exercises.Read the guide ↗View source ↗03\n    The questionHow can someone new to data learn a complete workflow and understand the choices made along the way?\n    What the app offersInteractive modules cover data import, missing values, outliers, text cleaning, joins, visualisation, and basic statistics. Additional materials introduce practical use of AI assistants, with the learner responsible for checking the results.\n    Who it is forPeople starting to work with data, trainers planning hands-on sessions, and teams building confidence in everyday analysis.\n    A starting pointInstall from CRAN with install.packages(\"cataScience\"), then launch the original learning app:library(cataScience)\n    run_cata()The documentation also describes the extended workshop app and its learning path.\n    Learning through examplesThe project includes example datasets and practical exercises. Some workshop datasets are synthetic teaching materials; they should be read as training examples, not country estimates.\n    My contributionI am the package author and maintainer. The app was developed for data trainings, with general learning content that can also be used for self-study.FormatR Shiny training applicationMy roleAuthor and maintainerLicence & attributionMIT + licence fileSourcecataScience · GitHubDescription checked on 3 November 2026.\n    ← Back to all projects\n    Have a question about this work?Get in touch about use cases, methods, and data training.dings@who.int ↗"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Health data,made useful.",
+    "section": "",
+    "text": "Public health · Data science\n        Health data,made useful.\n        I’m Shanlong Ding. 丁善龙\n        A public health data analyst based in Manila. I build open-source R tools and work on health indicators, mortality analysis, and reproducible workflows.\n        Explore projects ↗A little about me →\n      \n      Shanlong Ding · 丁善龙Based in Manila\n    \n    Health dataAccess, context, and interpretationPractical toolsR packages and interactive appsShared knowledgeGuides, methods, and training\n    Selected workTools for real questions.All projects ↗01R packageDSIRAccess WHO and UN data, work with country metadata, and create consistent charts and tables.Explore project ↗\n    02Mortality analysisexmortExplore all-cause and excess mortality with baseline models, clear plots, and downloadable reports.Explore project ↗\n    03Learning & trainingcataScienceLearn to prepare, explore, and explain data through interactive lessons and practical exercises.Explore project ↗\n    Notes & tutorialsFrom methodto practice.A few starting points from my public project guides.Browse the guides ↗Health dataWorking with global health dataDiscover the DSIR data clients and documentation.↗Mortality methodsUnderstand the baselineModels, uncertainty, and the interpretation of excess mortality.↗Data practiceBuild a clearer data workflowExplore cleaning choices, joins, and chart interpretation.↗\n    Let’s talk about data.Get in touch about health data analysis, R tools, or data training.dings@who.int ↗"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Hello, I’m Shanlong.",
+    "section": "",
+    "text": "A little about meHello, I’m Shanlong.Making health data easier to access, understand, and use.\n    \n    My work\n    I work on health information and data science at the WHO Regional Office for the Western Pacific, based in Manila.\n    My work focuses on health indicator monitoring, mortality analysis, and reproducible workflows in R. I also develop open-source tools and learning materials to help people understand data, carry out analyses, and communicate results clearly.\n    This website\n    This is a home for my public projects, technical guides, and practical lessons. Explore the projects to find a tool, or browse notes and tutorials for an approach you can use in your work.\n    Get in touch\n    I welcome conversations about health data analysis, R tools, and data training.\n    dings@who.intGitHub · shanlong-who\n    NameShanlong Ding · 丁善龙Based inManila, PhilippinesFocusPublic health · Data science\n    Beyond dataMOMO & MIMITwo small desktop cats that move, play, and keep a little company. A project made for fun, and a lighter corner of my public work.Meet MOMO & MIMI ↗"
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Start with a question.",
+    "section": "",
+    "text": "Notes & tutorialsStart with a question.A collection of practical guides from my public projects. Pick a question that fits your work, then follow it into the examples and documentation.\n    Health dataFind the data, understand its source, then begin the analysis.DSIRData tools and reference documentationExplore data clients, country metadata, and reusable tools for charts and tables.English guide · Project documentation↗\n    Mortality analysisFrom preparing the input to interpreting the output.exmortPrepare weekly or monthly mortality dataLearn how to organise the input workbook and define the event calendar.English guide · Project documentation↗\n    exmortModels and interpretationUnderstand baselines, uncertainty, excess deaths, and P-scores.English guide · Project documentation↗\n    Learning & teachingPractise data work with clear examples.cataScienceA data-quality workflowCompare cleaning choices, inspect text and joins, and explain a chart.English guide · Project documentation↗\n    cataSciencePlan a data training sessionExplore session plans for data science and working with AI assistants.English guide · Project documentation↗\n    These links open the existing English guides on their project websites. The Chinese edition of this page provides translated introductions to the same resources."
+  },
+  {
+    "objectID": "projects/dsir.html",
+    "href": "projects/dsir.html",
+    "title": "DSIR",
+    "section": "",
+    "text": "← All projectsR packageDSIRAccess WHO and UN data, work with country metadata, and create consistent charts and tables.Read the guide ↗View source ↗01\n    The questionHow can routine health-data work become easier to repeat, from retrieving observations to producing clear outputs?\n    What the package offersDSIR brings together data clients for WHO GHO, WHO GHE, and UN SDG sources, country metadata, and reusable plotting and table styles. Its documentation describes the source-specific functions and their arguments.\n    Who it is forAnalysts who work in R with health indicators and need consistent data-access and reporting workflows.\n    A starting pointInstall the package from CRAN with install.packages(\"DSIR\"), then open its help index:library(DSIR)\n    help(package = \"DSIR\")\n    Using the resultsCheck the indicator definition, units, population, time coverage, and source before comparing observations. Use the project documentation to distinguish the CRAN release from GitHub development features.\n    My contributionI am the package author and maintainer. The repository contains the current package metadata, source code, documentation, and licence.FormatR packageMy roleAuthor and maintainerLicence & attributionMIT + licence fileSourceDSIR · GitHubDescription checked on 3 November 2026.\n    ← Back to all projects\n    Have a question about this work?Get in touch about use cases, methods, and data training.dings@who.int ↗"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "From questionsto practical tools.",
+    "section": "",
+    "text": "Public projectsFrom questionsto practical tools.Tools for accessing health data, analysing mortality, exploring results, and learning through practice. Each project has its own documentation and source code.\n    01R packageDSIRAccess WHO and UN data, work with country metadata, and create consistent charts and tables.Explore project ↗Read the guide ↗\n    02Mortality analysisexmortExplore all-cause and excess mortality with baseline models, clear plots, and downloadable reports.Explore project ↗Read the guide ↗\n    03Learning & trainingcataScienceLearn to prepare, explore, and explain data through interactive lessons and practical exercises.Explore project ↗Read the guide ↗\n    04SPAR2021 — 2025Interactive dashboardSPAR InsightsExplore public SPAR self-assessment data across years, regions, and countries.Explore project ↗Open dashboard ↗\n    Choose how to get started. SPAR Insights opens directly in your browser. DSIR is an R package; the exmort and cataScience websites provide documentation, with their interactive apps launched from R.\n    Let’s talk about data.Get in touch about health data analysis, R tools, or data training.dings@who.int ↗"
+  },
+  {
+    "objectID": "zh/about/index.html",
+    "href": "zh/about/index.html",
+    "title": "你好，我是丁善龙。",
+    "section": "",
+    "text": "关于我你好，我是丁善龙。让健康数据更容易获取、理解和使用。\n    \n    我的工作\n    我目前在世界卫生组织西太平洋区域办事处从事健康信息与数据科学工作，常驻马尼拉。\n    我的工作关注健康指标监测、死亡率分析，以及使用 R 构建可重复的数据分析流程。我也开发开源工具和学习材料，帮助更多人理解数据、开展分析并清楚地表达结果。\n    这个网站\n    这里汇集了我的公开项目、技术指南和实践经验。你可以从 项目页了解工具，或在 文章与教程中寻找与当前工作相关的方法。\n    联系我\n    欢迎交流健康数据分析、R 工具和数据培训。\n    dings@who.intGitHub · shanlong-who\n    姓名Shanlong Ding · 丁善龙所在地菲律宾，马尼拉工作方向公共卫生 · 数据科学\n    数据之外MOMO & MIMI两个可以在桌面上走动、互动的小猫。这个小项目给日常工作添了一点乐趣，也是我公开作品中轻松的一角。认识 MOMO 与 MIMI ↗"
+  },
+  {
+    "objectID": "zh/notes/index.html",
+    "href": "zh/notes/index.html",
+    "title": "从一个具体问题开始。",
+    "section": "",
+    "text": "文章与教程从一个具体问题开始。这里汇集了公开项目中的实用指南。先选择与你当前工作相关的问题，再进入详细示例和文档。\n    健康数据寻找数据，理解来源，再开始分析。DSIR数据工具包与参考文档查看数据客户端、国家元数据和可重复使用的图表工具。英文指南 · 项目文档↗\n    死亡率分析从准备数据到解释结果。exmort准备每周或每月死亡数据了解输入工作簿与事件时间表的组织方式。英文指南 · 项目文档↗\n    exmort模型与结果解释理解基线、不确定性、超额死亡和 P-score。英文指南 · 项目文档↗\n    学习与教学用清楚的示例练习数据工作。cataScience数据质量工作流程比较清理选择，检查文本与数据合并，并解释图表。英文指南 · 项目文档↗\n    cataScience规划一场数据培训参考数据科学与 AI 辅助工作培训的教学安排。英文指南 · 项目文档↗\n    本页提供中文导读，链接的项目指南目前为英文。每条指南均在相应项目网站中打开。"
+  },
+  {
+    "objectID": "zh/projects/dsir.html",
+    "href": "zh/projects/dsir.html",
+    "title": "DSIR",
+    "section": "",
+    "text": "← 全部项目R 数据工具包DSIR获取 WHO 与 UN 数据，使用国家元数据，并生成风格一致的图表与表格。阅读指南（英文） ↗查看源代码 ↗01\n    从什么问题出发如何让日常健康数据工作更容易重复完成，从获取观测数据，到形成清楚的分析输出？\n    工具提供什么DSIR 汇集了 WHO GHO、WHO GHE 与 UN SDG 数据客户端、国家元数据，以及可重复使用的图表和表格样式。项目文档说明各数据源对应的函数与参数。\n    适合谁使用在 R 中处理健康指标，希望统一数据获取和报告工作流程的分析人员。\n    从这里开始使用 install.packages(\"DSIR\") 从 CRAN 安装，然后打开帮助索引：library(DSIR)\n    help(package = \"DSIR\")\n    理解使用结果比较数据前，先检查指标定义、单位、人群、时间覆盖和来源。使用项目文档确认 CRAN 正式版与 GitHub 开发版之间的功能区别。\n    我的贡献我是该工具包的作者与维护者。项目仓库提供当前的软件包元数据、源代码、文档与许可信息。使用方式R 工具包我的角色作者与维护者许可与署名MIT；详见项目许可文件资料来源DSIR · GitHub项目说明核对于 2026 年 11 月 3 日。\n    ← 返回全部项目\n    想聊聊这个项目？欢迎交流使用场景、方法和数据培训。dings@who.int ↗"
+  },
+  {
+    "objectID": "zh/projects/index.html",
+    "href": "zh/projects/index.html",
+    "title": "把问题变成可用的工具。",
+    "section": "",
+    "text": "公开项目把问题变成可用的工具。这些项目涵盖健康数据获取、死亡率分析、交互探索与数据培训。每个项目都有独立的文档和源代码。\n    01R 数据工具包DSIR获取 WHO 与 UN 数据，使用国家元数据，并生成风格一致的图表与表格。了解项目 ↗阅读指南（英文） ↗\n    02死亡率分析exmort利用基线模型分析全因死亡与超额死亡，查看图表并导出报告。了解项目 ↗阅读指南（英文） ↗\n    03学习与培训cataScience通过交互课程和实际练习，学习整理、探索和解释数据。了解项目 ↗阅读指南（英文） ↗\n    04SPAR2021 — 2025交互仪表板SPAR Insights按年份、区域和国家探索公开的 SPAR 自评数据。了解项目 ↗打开仪表板 ↗\n    选择合适的使用方式。 SPAR Insights 可直接在浏览器中使用。DSIR 是 R 工具包；exmort 和 cataScience 的网页提供文档，交互应用需要在 R 中启动。\n    从一个数据问题开始交流。欢迎交流健康数据分析、R 工具和数据培训。dings@who.int ↗"
+  }
+]
