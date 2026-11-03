@@ -1,0 +1,10 @@
+.quarto/
+.Rproj.user/
+.Rhistory
+.RData
+.Renviron
+.local/
+scripts/github_*.R
+
+/.quarto/
+**/*.quarto_ipynb

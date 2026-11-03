@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "projects/*.qmd"
+    - "notes/*.qmd"
+    - "about/*.qmd"
+    - "zh/**/*.qmd"
+  resources:
+    - assets/
+    - robots.txt
+    - .nojekyll
+
+website:
+  title: "Shanlong Ding"
+  site-url: https://shanlong-who.github.io
+  description: "Health data, practical R tools, and reproducible analysis by Shanlong Ding."
+  search: false
+
+format:
+  html:
+    template: templates/site.html
+    minimal: true
+    theme: none
+    toc: false
+    anchor-sections: false
+
+lang: en

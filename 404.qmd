@@ -1,0 +1,21 @@
+---
+title: "Page not found"
+description: "This page could not be found. Return to Shanlong Ding’s website."
+lang: en
+site-section: home
+active-home: true
+chinese: false
+home-path: "/"
+projects-path: "/projects/"
+notes-path: "/notes/"
+about-path: "/about/"
+canonical-path: "/404.html"
+english-path: "/404.html"
+chinese-path: "/zh/"
+translation-path: "/zh/"
+noindex: true
+---
+
+```{=html}
+<section class="page-intro"><p class="eyebrow">404</p><h1>This page wandered off.</h1><p class="lead">The address may have changed. Start again from the home page.</p><p lang="zh-CN">这个页面暂时找不到了。你可以从首页重新开始。</p><div class="button-row"><a class="button" href="/">English home <span aria-hidden="true">→</span></a><a class="text-link" href="/zh/" lang="zh-CN">中文首页 <span aria-hidden="true">→</span></a></div></section>
+```
