@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shanlong-who.github.io/sitemap.xml
