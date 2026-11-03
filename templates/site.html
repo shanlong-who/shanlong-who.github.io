@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="$description$">
+  <meta name="author" content="Shanlong Ding">
+  <title>$title$ | Shanlong Ding · 丁善龙</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="canonical" href="https://shanlong-who.github.io$canonical-path$">
+$if(noindex)$
+  <meta name="robots" content="noindex">
+$else$
+  <link rel="alternate" hreflang="en" href="https://shanlong-who.github.io$english-path$">
+  <link rel="alternate" hreflang="zh-CN" href="https://shanlong-who.github.io$chinese-path$">
+  <link rel="alternate" hreflang="x-default" href="https://shanlong-who.github.io$english-path$">
+$endif$
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$title$ | Shanlong Ding">
+  <meta property="og:description" content="$description$">
+  <meta property="og:url" content="https://shanlong-who.github.io$canonical-path$">
+  <meta property="og:image" content="https://shanlong-who.github.io/assets/shanlong-ding.jpg">
+  <meta property="og:image:alt" content="Shanlong Ding">
+  <meta name="twitter:card" content="summary">
+$for(header-includes)$
+  $header-includes$
+$endfor$
+</head>
+<body data-section="$site-section$">
+$if(chinese)$
+  <a class="skip-link" href="#main">跳到正文</a>
+$else$
+  <a class="skip-link" href="#main">Skip to content</a>
+$endif$
+  <header class="site-header shell">
+    <a class="brand" href="$home-path$" aria-label="$if(chinese)$丁善龙，首页$else$Shanlong Ding, home$endif$">
+      <span class="brand-mark" aria-hidden="true">SD<span>.</span></span>
+      <span class="brand-name">$if(chinese)$丁善龙<small>Shanlong Ding</small>$else$Shanlong Ding<small>Public health &amp; data science</small>$endif$</span>
+    </a>
+    <nav class="primary-nav" aria-label="$if(chinese)$主导航$else$Main navigation$endif$">
+      <a class="nav-home" href="$home-path$"$if(active-home)$ aria-current="page"$endif$>$if(chinese)$首页$else$Home$endif$</a>
+      <a class="nav-projects" href="$projects-path$"$if(active-projects)$ aria-current="page"$endif$>$if(chinese)$项目$else$Projects$endif$</a>
+      <a class="nav-notes" href="$notes-path$"$if(active-notes)$ aria-current="page"$endif$>$if(chinese)$文章与教程$else$Notes &amp; tutorials$endif$</a>
+      <a class="nav-about" href="$about-path$"$if(active-about)$ aria-current="page"$endif$>$if(chinese)$关于我$else$About$endif$</a>
+    </nav>
+    <a class="language-switch" href="$translation-path$" lang="$if(chinese)$en$else$zh-CN$endif$" hreflang="$if(chinese)$en$else$zh-CN$endif$" aria-label="$if(chinese)$Read this page in English$else$阅读本页中文版$endif$">$if(chinese)$EN <span aria-hidden="true">↗</span>$else$中文 <span aria-hidden="true">↗</span>$endif$</a>
+  </header>
+  <main id="main" class="shell" tabindex="-1">
+    $body$
+  </main>
+  <footer class="site-footer shell">
+    <div class="footer-signature"><strong>$if(chinese)$丁善龙$else$Shanlong Ding$endif$</strong><span>$if(chinese)$公共卫生 · 数据科学 · 开源工具$else$Public health · Data science · Open-source tools$endif$</span></div>
+    <div class="footer-links"><a href="mailto:dings@who.int">$if(chinese)$邮件联系$else$Email$endif$</a><a href="https://github.com/shanlong-who">GitHub <span aria-hidden="true">↗</span></a><a href="$translation-path$" lang="$if(chinese)$en$else$zh-CN$endif$">$if(chinese)$English$else$中文$endif$</a></div>
+    <p class="copyright">© 2026 Shanlong Ding · $if(chinese)$个人网站$else$Personal website$endif$</p>
+  </footer>
+$for(include-after)$
+  $include-after$
+$endfor$
+</body>
+</html>
